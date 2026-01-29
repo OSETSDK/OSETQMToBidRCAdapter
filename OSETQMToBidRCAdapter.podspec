@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETQMToBidRCAdapter"
-  s.version      = "6.6.2.0"
+  s.version      = "6.6.1.5"
   s.summary      = "AdSet广告对接Tobid适配器"
   s.description  = <<-DESC
                     OSETSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { 'shenshi' => 'yaohaofei@shenshiads.com' }
   
   # 设置最低支持版本
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
   s.static_framework = true
   # 源文件配置
   s.source       = {
